@@ -1,0 +1,122 @@
+.nav__logo{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--body-color);
+  border-right: 2px solid rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  width: 110px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  color: hsl(353, 100%, 65%);
+}
+
+.nav__tooltip {
+  display: none;
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: hsl(353, 100%, 65%);
+  color: #fff;
+  padding: 0.2em 0.8em;
+  border-radius: 1em;
+  white-space: nowrap;
+  font-size: 0.95rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, left 0.2s;
+  z-index: 20;
+}
+
+.copyright {
+  color: black;
+  font-size: var(--small-font-size);
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  background-color: var(--body-color);
+  border: 1px solid #e8dfec;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: .3s;
+  border-radius: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  .aside {
+    left: -110px;
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+
+  .nav__toggle-open {
+    left: 140px;
+  }
+
+  .show-menu {
+    left: 0;
+  }
+
+  .nav__link span:not(.nav__tooltip) {
+    display: inline;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .nav__tooltip {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .nav__link span:not(.nav__tooltip) {
+    display: none;
+  }
+  .nav__link:hover .nav__tooltip {
+    display: block;
+    opacity: 1;
+    left: 120%;
+  }
+}

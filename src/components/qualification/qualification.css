@@ -1,0 +1,138 @@
+:root {
+  --title-color: #22223b;
+  --title-color-dark: #1a1a2e;
+  --font-medium: 500;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.85rem;
+  --mb-2: 2rem;
+  --mb-1-5: 1.5rem;
+  --mb-1: 1rem;
+  --text-color: #4a4e69;
+}
+
+.qualification__container {
+  max-width: 768px;
+}
+
+.qualification__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+  gap: 3rem;
+}
+
+.qualification__button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.qualification__button:hover {
+  color: hsl(353, 100%, 65%);
+}
+
+.qualification__icon {
+  font-size: 1.6rem;
+}
+
+.qualification__active {
+  color: var(--title-color-dark);
+}
+
+.qualification__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.qualification__content {
+  display: none;
+}
+
+.qualification__content-active {
+  display: block;
+  margin-top: 2rem;
+}
+
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualification__subtitle {
+  font-size: var(--small-font-size);
+  display: inline-block;
+}
+
+.qualification__calendar {
+  font-size: var(--small-font-size);
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+  transform: translate(6px, -7px);
+}
+
+@media screen and (max-width: 992px) {
+  .qualification__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .qualification__container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  .qualification__tabs {
+    gap: 2rem;
+  }
+  .qualification__button {
+    font-size: 1.1rem; 
+    gap: 0.35rem; 
+  }
+  .qualification__icon {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .qualification__sections {
+    grid-template-columns: initial;
+  }
+  .qualification__tabs {
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .qualification__button {
+    font-size: 1rem;  
+    gap: 0.25rem;
+  }
+  .qualification__icon {
+    font-size: 1rem;  
+  }
+}

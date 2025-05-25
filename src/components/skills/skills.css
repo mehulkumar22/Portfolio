@@ -1,0 +1,58 @@
+.about__skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.about__skills-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about__skills-container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 1.5rem;
+  justify-items: center; 
+  width: 100%;
+  max-width: 700px;
+}
+
+.about__skills-img {
+  width: 2.5rem;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.about__skills-img:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+  .about__skills-title {
+    font-size: 1.75rem;
+  }
+
+  .about__skills-container-grid {
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    max-width: 90%;
+  }
+
+  .about__skills-img {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__skills-title {
+    font-size: 1.5rem;
+  }
+
+  .about__skills-img {
+    width: 1.8rem;
+  }
+}
