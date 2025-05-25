@@ -1,6 +1,6 @@
-# 🌐 Portfolio Website (React.js)
+# 🌐 Portfolio Website
 
-Welcome to my **React.js Portfolio Website**! This project showcases my web development skills, personal projects, and professional experiences. Built using **React.js** and **CSS**, the site features a responsive design, dynamic components, and a smooth user experience tailored to highlight my work and expertise.
+Welcome to my **Portfolio Website !** This project showcases my web development skills, personal projects, and professional experiences. Built using **React.js** and **CSS**, the site features a responsive design, dynamic components, and a smooth user experience tailored to highlight my work and expertise.
 
 ### 🚀 Features
 
@@ -13,14 +13,13 @@ Welcome to my **React.js Portfolio Website**! This project showcases my web deve
 
 ### 🌐 Demo
 
-[Live Demo](https://portfolio-website-pied-mu.vercel.app/)
+[Demo Link](https://portfolio-website-pied-mu.vercel.app/)
 
 ### 🛠️ Technologies Used
 
 * **React.js**: For building modular and dynamic user interfaces.
 * **CSS**: For custom styling and responsive layouts.
 
----
 
 ### 📩 Contact
 
@@ -29,6 +28,3 @@ If you have any questions or feedback, feel free to connect:
 * ✉️ **Email**: [mehulkumar.mk02@gmail.com](mailto:mehulkumar.mk02@gmail.com)
 * 🐦 **GitHub**: [mehulkumar22](https://github.com/mehulkumar22)
 
----
-
-Let me know if you'd like a version of this for your GitHub `README.md` as well.
