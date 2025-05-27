@@ -27,7 +27,3 @@ If you have any questions or feedback, feel free to connect:
 
 * ✉️ **Email**: [mehulkumar.mk02@gmail.com](mailto:mehulkumar.mk02@gmail.com)
 * 🐦 **GitHub**: [mehulkumar22](https://github.com/mehulkumar22)
-
-=======
-# Portfolio
->>>>>>> ad30c59 (Initial commit)
