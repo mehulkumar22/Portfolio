@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Portfolio Website
 
 Welcome to my **Portfolio Website !** This project showcases my web development skills, personal projects, and professional experiences. Built using **React.js** and **CSS**, the site features a responsive design, dynamic components, and a smooth user experience tailored to highlight my work and expertise.
