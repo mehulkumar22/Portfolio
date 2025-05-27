@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Portfolio Website
 
 Welcome to my **Portfolio Website !** This project showcases my web development skills, personal projects, and professional experiences. Built using **React.js** and **CSS**, the site features a responsive design, dynamic components, and a smooth user experience tailored to highlight my work and expertise.
@@ -28,3 +29,6 @@ If you have any questions or feedback, feel free to connect:
 * ✉️ **Email**: [mehulkumar.mk02@gmail.com](mailto:mehulkumar.mk02@gmail.com)
 * 🐦 **GitHub**: [mehulkumar22](https://github.com/mehulkumar22)
 
+=======
+# Portfolio
+>>>>>>> ad30c59 (Initial commit)
